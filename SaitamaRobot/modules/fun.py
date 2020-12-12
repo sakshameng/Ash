@@ -84,7 +84,7 @@ def slap(update: Update, context: CallbackContext):
     throw = random.choice(fun_strings.THROW)
 
     if update.effective_user.id == 1096215023:
-       update.reply_text(
+       update.effective_message.reply_text(
                     "f.",
                     reply_to_message_id=reply)
     
