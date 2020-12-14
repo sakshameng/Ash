@@ -19,6 +19,7 @@ CurrencyConverter
 googletrans
 jikanpy
 speedtest-cli
+cachetools
 coffeehouse
 google_trans_new
 regex
