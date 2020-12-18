@@ -59,7 +59,7 @@ You can find the list of available commands with /help
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
-I'm a part of Pokemon
+I'm a part of Marvel Superheroes!
 Have a look at the following for an idea of some of the things I can help you with.
 
 *Main* commands available:
@@ -80,9 +80,8 @@ And the following:
 SAITAMA_IMG = "https://telegra.ph/file/2bbe6208b097878d44d26.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-Saitama is hosted on one of Kaizoku's Servers and doesn't require any donations as of now but \
-You can donate to the original writer of the Base code, Paul
-There are two ways of supporting him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
+Avengers  is hosted on one of Kaizoku's Servers and doesn't require any donations as of now but \
+You can [donate](https://t.me/FaucetMaker)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -200,7 +199,7 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="🧲Add Ash Ketchum to your group!",
+                            text="🧲Add Avengers  to your group!",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
@@ -210,17 +209,17 @@ def start(update: Update, context: CallbackContext):
                              url=f"https://t.me/{SUPPORT_CHAT}"),
                          InlineKeyboardButton(
                              text="🔔Updates Channel",
-                             url="https://t.me/BotLabUpdates")
+                             url="https://t.me/TGBotLab")
                      ],
                      [
                          InlineKeyboardButton(
                              text="📖 Getting Started Guide",
-                             url="https://t.me/BotLabUpdates/3")
+                             url="https://t.me/TGBotLab")
                      ],
                      [
                          InlineKeyboardButton(
                              text="💾 Source Code.",
-                             url="https://github.com/Uday0011/Ash")
+                             url="https://faucetmaker")
                      ]]))
     else:
         update.effective_message.reply_text(
