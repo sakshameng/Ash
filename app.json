@@ -8,7 +8,7 @@
          "manager",
          "Saitama"
       ],   
-   "repository": "https://github.com/AnimeKaizoku/SaitamaRobot",
+   "repository": "https://github.com/sakshameng/Avengers",
    "addons": [
       {
          "options": {
@@ -41,16 +41,16 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "792109647"
+         "value": "1358136299"
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "Sawada"
+         "value": "mccoyeddy"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to saitama support than consider you made an enemy.",
          "required": true,
-         "value": "MyAwesomeSupportGroupGoesHere"
+         "value": "AvengersUpdate"
       },
       "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
@@ -75,7 +75,7 @@
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Saitama support then keep the current ID's here at they are and add yours.",
          "required": false,
-         "value": "660565862 459034222 189005567 346981140 367222759"
+         "value": "1358136299 784606914 1368562787 1229419906"
       },
       "sw_api": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
@@ -89,22 +89,22 @@
       "DRAGONS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
          "required": false,
-         "value": "459034222 189005567 660565862 346981140 367222759"
+         "value": "1358136299 784606914 1368562787 1229419906"
       },
       "DEMONS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
          "required": false,
-         "value": "615304572"
+         "value": ""
       },
       "TIGERS": {
          "description": "A space separated list of user IDs who you wanna assign as tiger users.",
          "required": false,
-         "value": ""
+         "value": "1358136299 784606914 1368562787 1229419906"
       },
       "WOLVES": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
          "required": false,
-         "value": ""
+         "value": "1358136299 784606914 1368562787 1229419906"
       },
       "ENV": {
          "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
@@ -123,7 +123,7 @@
       "URL": {
          "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
          "required": false,
-         "value": ""
+         "value": "https://avengersrobot.herokuapp.com/"
       },
       "No_LOAD": {
          "description": "Dont load these modules cause they shit, space separation",
@@ -142,7 +142,7 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
          "required": false,
-         "value": "https://www.paypal.me/PaulSonOfLars"
+         "value": "https://t.me/mccoyeddy"
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
@@ -156,7 +156,7 @@
       "BAN_STICKER": {
          "description": "ID of the sticker you want to use when banning people.",
          "required": false,
-         "value": "CAACAgQAAx0CU_rCTAABAczQXyBOv1TsVK4EfwnkCUT1H0GCkPQAAtwAAwEgTQaYsMtAltpEwhoE"
+         "value": ""
       }
       
    }
